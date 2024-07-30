@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genesis Block Africa</title>
+    <link rel="stylesheet" href="./index.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="./assets/images/genesis logo.jpg" alt="Genesis Block Africa">
+            </div>
+            <div class="menu">
+                <button class="hamburger" onclick="toggleMenu()">☰</button>
+                <nav id="nav-links" class="nav-links">
+                    <a href="#hero">Home</a>
+                    <a href="#about-us">About Us</a>
+                    <a href="./dev codes/gridhover.html">Take Tour</a>
+                    <a href="#contact-form">Contact Us</a>
+                    <i class="ri-close-line" onclick="closenavlink()"></i>
+                    <i class="ri-menu-line" onclick="opennavlink()"></i>
+
+                </nav>
+            </div>
+            <div class="container">
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        </div>
+    </header>
+
+    <section id="hero">
+        <video autoplay muted loop id="bg-video">
+            <source src="./assets/icons/background home video.mp4" type="video/mp4">
+        </video>
+        <div class="hero_content_container">
+            <div class="hero-content">
+                <h1 class="home-text">YOUR <span class="dream">DREAM </span>HOME</h1>
+                <h2 class="home-text">It's not just a lake it's a <span class="dream">LIFESTYLE</span></h2>
+                <div class="icons">
+                    <img src="./assets/icons/facebook.png" alt="">
+                    <img src="./assets/icons/Icon awesome-instagram.png" alt="" class="instagram-icon">
+                    <img src="./assets/icons/Icon awesome-twitter.png" alt=""  class="twitter-icon">
+                  </div>
+            
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="about-us">
+        <div class="container-us">
+            <h2>About Us</h2>
+            <p class="abtn-text">Genesis Real Estate Africa is a full service real </p>
+                <p class="abtn-text"> estate company specializing in property management, propertysale,</p>
+                <p class="abtn-text">rentals,short-term accommodation,valuations,property advisory and  </p>
+                <p class="abtn-text">rental guarantees </p>
+        </div>
+        <div class="ours1">
+        <div class="flip-container">
+            <div class="flip-card">
+                <div class="flip-card-inner" onclick="flipCard(this)">
+                    <div class="flip-card-front">
+                        <img class="png" src="./assets/images/download (6).jpg" alt="Property Image 1">
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Property Management</h3>
+                        <p>At the novice level, you would be expected to have a strong grasp of all the foundational and intermediate topics and be comfortable applying them in practical projects. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner" onclick="flipCard(this)">
+                    <div class="flip-card-front">
+                        <img class="png1" src="./assets/images/100+ Classic Black and White Bedroom Ideas.jpg" alt="Property Image 4">
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Property Sales</h3>
+                        <p>At the novice level, you would be expected to have a strong grasp of all the foundational and intermediate topics and be comfortable applying them in practical projects. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner" onclick="flipCard(this)">
+                    <div class="flip-card-front">
+                       <img class="png2" src="./assets/images/13 Small House Designs That Look Amazing (Concept Pictures).jpg" alt="Property Image 5">
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Short-term accommodation</h3>
+                        <p>At the novice level, you would be expected to have a strong grasp of all the foundational and intermediate topics and be comfortable applying them in practical projects. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner" onclick="flipCard(this)">
+                    <div class="flip-card-front">
+                        <img class="png3" src="./assets/images/19 Trendy Bathroom Tile Ideas That WOW.jpg" alt="Property Image 4">
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Valuations</h3>
+                        <p>At the novice level, you would be expected to have a strong grasp of all the foundational and intermediate topics and be comfortable applying them in practical projects. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner" onclick="flipCard(this)">
+                    <div class="flip-card-front">
+                        <img class="png4" src="./assets/images/20 Eye-Catching Driveway Entry Landscapes for a Stunning First Impression.jpg" alt="Property Image 5">
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Property Advisory</h3>
+                        <p>At the novice level, you would be expected to have a strong grasp of all the foundational and intermediate topics and be comfortable applying them in practical projects. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner" onclick="flipCard(this)">
+                    <div class="flip-card-front">
+                        <img class="png5" src="./assets/images/exterior.jpg" alt="Property Image 6">
+                    </div>
+                    <div class="flip-card-back">
+                        <h3>Rental Guarantees</h3>
+                        <p>At the novice level, you would be expected to have a strong grasp of all the foundational and intermediate topics and be comfortable applying them in practical projects. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+            
+        </div>
+    </section>
+    <section id="contact-form">
+        <div class="card-form">
+            <div class="hero_content_container2">
+            <div class="form-container">
+                <h2>Contact Us</h2>
+                <h4>We Help You Buy or Sell Your Property Quickly</h4>
+                <form>
+                    <input class="input" type="text" name="name" placeholder="Name" >
+                    <input class="input" type="text" name="phone" placeholder="Phone Number">
+                    <input class="input" type="email" name="email" placeholder="Email">
+                    <textarea class="msg" name="message" placeholder="Your Message"></textarea>
+                    <button class="contact-btn" type="submit">Send Message</button>
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <script src="./index.js"></script>
+</body>
+</html>
